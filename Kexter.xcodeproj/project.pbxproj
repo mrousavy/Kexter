@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B8137C3B1EC84CE9004B3A95 /* EfiMounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8137C3A1EC84CE9004B3A95 /* EfiMounter.swift */; };
 		B85FDD811EC842E900AE5FB3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B85FDD801EC842E900AE5FB3 /* AppDelegate.swift */; };
 		B85FDD831EC842E900AE5FB3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B85FDD821EC842E900AE5FB3 /* ViewController.swift */; };
 		B85FDD851EC842E900AE5FB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B85FDD841EC842E900AE5FB3 /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B8137C3A1EC84CE9004B3A95 /* EfiMounter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EfiMounter.swift; sourceTree = "<group>"; };
 		B85FDD7D1EC842E900AE5FB3 /* Kexter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kexter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B85FDD801EC842E900AE5FB3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B85FDD821EC842E900AE5FB3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -57,6 +59,7 @@
 				B85FDD841EC842E900AE5FB3 /* Assets.xcassets */,
 				B85FDD861EC842E900AE5FB3 /* Main.storyboard */,
 				B85FDD891EC842E900AE5FB3 /* Info.plist */,
+				B8137C3A1EC84CE9004B3A95 /* EfiMounter.swift */,
 			);
 			path = Kexter;
 			sourceTree = "<group>";
@@ -134,6 +137,7 @@
 			files = (
 				B85FDD831EC842E900AE5FB3 /* ViewController.swift in Sources */,
 				B85FDD811EC842E900AE5FB3 /* AppDelegate.swift in Sources */,
+				B8137C3B1EC84CE9004B3A95 /* EfiMounter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,6 +292,7 @@
 				B85FDD8E1EC842E900AE5FB3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
